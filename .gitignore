@@ -1,0 +1,11 @@
+﻿IntelligentCapstone/industrial_fire_dectection/dataset/train/normal_interference
+IntelligentCapstone/industrial_fire_dectection/dataset/train/real_fire
+IntelligentCapstone/industrial_fire_dectection/dataset/val/normal_interference
+IntelligentCapstone/industrial_fire_dectection/dataset/val/real_fire
+IntelligentCapstone/optical_fire_false_alarm_detection/data/train/non_fire
+IntelligentCapstone/optical_fire_false_alarm_detection/data/train/fire
+IntelligentCapstone/지능화캡스톤프로젝트 발표양식(\#1발표평가)_2025254008_곽소영 (1).pdf
+IntelligentCapstone/TASK.md
+IntelligentCapstone/industrial_fire_dectection/models/weights/spatiotemporal_classifier.h5
+IntelligentCapstone/industrial_fire_dectection/models/weights/yolov8n_fire.pt
+IntelligentCapstone/optical_fire_false_alarm_detection/weights/fire_smoke_model.h5
