@@ -1,0 +1,418 @@
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=645  non-fire=144   val clips: 426
+[001] train loss 0.1881 acc 0.842 | val loss 0.9484 acc 0.540 auc 0.40652585119798235 | 42.5s
+[002] train loss 0.1359 acc 0.863 | val loss 0.9719 acc 0.556 auc 0.4933345343181409 | 23.8s
+[003] train loss 0.1206 acc 0.872 | val loss 1.0379 acc 0.491 auc 0.4181566384435237 | 22.5s
+[004] train loss 0.1118 acc 0.891 | val loss 1.1519 acc 0.495 auc 0.38874752296883447 | 22.1s
+[005] train loss 0.1109 acc 0.894 | val loss 1.2995 acc 0.502 auc 0.28473473248063413 | 21.7s
+[006] train loss 0.0806 acc 0.911 | val loss 1.3931 acc 0.540 auc 0.38196946496126827 | 22.2s
+[007] train loss 0.0958 acc 0.906 | val loss 1.4224 acc 0.538 auc 0.35315708881282654 | 22.0s
+[008] train loss 0.0834 acc 0.924 | val loss 1.3695 acc 0.500 auc 0.348934876598811 | 21.8s
+[009] train loss 0.0740 acc 0.924 | val loss 1.6359 acc 0.514 auc 0.3167559899117276 | 22.0s
+[010] train loss 0.0718 acc 0.925 | val loss 1.6847 acc 0.528 auc 0.2338880381913169 | 21.7s
+[011] train loss 0.0598 acc 0.942 | val loss 1.6562 acc 0.516 auc 0.39567195099981983 | 21.4s
+early stopping
+best val loss 0.9484 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed1_fold0\best.pt
+[cnn_lstm_seed1_fold0/test] clips=273 videos=9  P=0.9246231155778895 R=0.8518518518518519 F1=0.8867469879518072 FPR=0.2631578947368421 AUC=0.8287443144899285
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=616  non-fire=155   val clips: 291
+[001] train loss 0.2401 acc 0.822 | val loss 0.1133 acc 0.952 auc 0.99698314108252 | 30.1s
+[002] train loss 0.1981 acc 0.817 | val loss 0.0951 acc 0.962 auc 0.9959183673469387 | 19.8s
+[003] train loss 0.1871 acc 0.840 | val loss 0.0740 acc 0.986 auc 0.9985803016858917 | 19.9s
+[004] train loss 0.1819 acc 0.837 | val loss 0.0748 acc 0.969 auc 0.9966282165039928 | 19.6s
+[005] train loss 0.1682 acc 0.826 | val loss 0.0659 acc 0.983 auc 0.9966282165039929 | 21.6s
+[006] train loss 0.1650 acc 0.872 | val loss 0.0659 acc 0.979 auc 0.9985803016858917 | 20.9s
+[007] train loss 0.1640 acc 0.864 | val loss 0.0745 acc 0.955 auc 0.9968056787932564 | 26.2s
+[008] train loss 0.1622 acc 0.864 | val loss 0.0659 acc 0.983 auc 0.9990239574090506 | 25.4s
+[009] train loss 0.1482 acc 0.875 | val loss 0.0535 acc 0.973 auc 0.9952972493345164 | 25.7s
+[010] train loss 0.1489 acc 0.865 | val loss 0.0483 acc 0.955 auc 0.9968944099378882 | 20.4s
+[011] train loss 0.1530 acc 0.874 | val loss 0.0814 acc 0.955 auc 0.990860692102928 | 20.9s
+[012] train loss 0.1474 acc 0.857 | val loss 0.0587 acc 0.986 auc 0.9864241348713398 | 20.5s
+[013] train loss 0.1336 acc 0.883 | val loss 0.0466 acc 0.983 auc 0.9957409050576752 | 20.8s
+[014] train loss 0.1286 acc 0.895 | val loss 0.0599 acc 0.979 auc 0.985625554569654 | 22.3s
+[015] train loss 0.1300 acc 0.888 | val loss 0.0631 acc 0.979 auc 0.9911268855368234 | 20.3s
+[016] train loss 0.1208 acc 0.892 | val loss 0.0684 acc 0.979 auc 0.9991126885536823 | 20.3s
+[017] train loss 0.1257 acc 0.882 | val loss 0.0534 acc 0.969 auc 0.9946761313220941 | 20.6s
+[018] train loss 0.1299 acc 0.898 | val loss 0.0560 acc 0.990 auc 0.9992014196983142 | 20.4s
+[019] train loss 0.1057 acc 0.916 | val loss 0.0630 acc 0.969 auc 0.9929902395740905 | 20.3s
+[020] train loss 0.0942 acc 0.929 | val loss 0.0806 acc 0.959 auc 0.9618456078083407 | 21.8s
+[021] train loss 0.0886 acc 0.936 | val loss 0.0660 acc 0.962 auc 0.9909937888198758 | 21.3s
+[022] train loss 0.0808 acc 0.934 | val loss 0.0898 acc 0.966 auc 0.956078083407276 | 21.3s
+[023] train loss 0.0751 acc 0.939 | val loss 0.0989 acc 0.962 auc 0.9442324755989352 | 20.7s
+early stopping
+best val loss 0.0466 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed1_fold1\best.pt
+[cnn_lstm_seed1_fold1/test] clips=426 videos=11  P=0.5555555555555556 R=0.7786885245901639 F1=0.6484641638225257 FPR=0.8351648351648352 AUC=0.5136461898756981
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=767  non-fire=271   val clips: 159
+[001] train loss 0.3485 acc 0.622 | val loss 0.4599 acc 0.547 auc 0.4292114695340502 | 37.5s
+[002] train loss 0.3204 acc 0.687 | val loss 0.5226 acc 0.547 auc 0.4506353861192571 | 31.2s
+[003] train loss 0.2939 acc 0.764 | val loss 0.4999 acc 0.597 auc 0.5738025415444771 | 32.3s
+[004] train loss 0.2830 acc 0.756 | val loss 0.5072 acc 0.572 auc 0.5158846529814273 | 27.3s
+[005] train loss 0.2606 acc 0.803 | val loss 0.4593 acc 0.610 auc 0.6041870316063864 | 28.5s
+[006] train loss 0.2523 acc 0.808 | val loss 0.4314 acc 0.604 auc 0.6992505702183122 | 27.2s
+[007] train loss 0.2385 acc 0.824 | val loss 0.5933 acc 0.585 auc 0.6137178233952427 | 26.7s
+[008] train loss 0.2294 acc 0.823 | val loss 0.4223 acc 0.654 auc 0.7466601498859563 | 26.3s
+[009] train loss 0.2107 acc 0.833 | val loss 0.5045 acc 0.522 auc 0.6559139784946236 | 25.9s
+[010] train loss 0.2013 acc 0.822 | val loss 0.4706 acc 0.597 auc 0.674731182795699 | 27.1s
+[011] train loss 0.1831 acc 0.854 | val loss 0.4366 acc 0.610 auc 0.7280058651026393 | 26.9s
+[012] train loss 0.1730 acc 0.861 | val loss 0.2995 acc 0.742 auc 0.8123167155425219 | 27.4s
+[013] train loss 0.1436 acc 0.875 | val loss 0.3836 acc 0.755 auc 0.8265721733463669 | 26.2s
+[014] train loss 0.1406 acc 0.901 | val loss 0.2716 acc 0.805 auc 0.8418051482567611 | 27.3s
+[015] train loss 0.1323 acc 0.894 | val loss 0.3915 acc 0.648 auc 0.718475073313783 | 30.7s
+[016] train loss 0.1065 acc 0.905 | val loss 0.4256 acc 0.660 auc 0.7403062886933856 | 30.3s
+[017] train loss 0.0919 acc 0.926 | val loss 0.4305 acc 0.767 auc 0.7970022808732486 | 28.2s
+[018] train loss 0.0954 acc 0.923 | val loss 0.3951 acc 0.723 auc 0.7513033561420658 | 28.6s
+[019] train loss 0.0984 acc 0.921 | val loss 0.4685 acc 0.660 auc 0.7327305311176279 | 27.4s
+[020] train loss 0.0806 acc 0.937 | val loss 0.5004 acc 0.654 auc 0.7355001629195178 | 27.5s
+[021] train loss 0.0659 acc 0.949 | val loss 0.6052 acc 0.673 auc 0.7975724991854024 | 27.8s
+[022] train loss 0.0694 acc 0.943 | val loss 0.5404 acc 0.642 auc 0.724177256435321 | 27.8s
+[023] train loss 0.0548 acc 0.964 | val loss 0.6199 acc 0.686 auc 0.7745193874226133 | 27.7s
+[024] train loss 0.0770 acc 0.934 | val loss 0.6350 acc 0.698 auc 0.79227761485826 | 27.7s
+early stopping
+best val loss 0.2716 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed1_fold2\best.pt
+[cnn_lstm_seed1_fold2/test] clips=291 videos=9  P=0.9888268156424581 R=0.7224489795918367 F1=0.8349056603773585 FPR=0.043478260869565216 AUC=0.8328305235137533
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=705  non-fire=285   val clips: 339
+[001] train loss 0.3757 acc 0.684 | val loss 0.2457 acc 0.891 auc 0.7764149022801303 | 37.6s
+[002] train loss 0.3168 acc 0.784 | val loss 0.2554 acc 0.720 auc 0.7002239413680782 | 28.3s
+[003] train loss 0.3079 acc 0.777 | val loss 0.2019 acc 0.864 auc 0.8168770358306188 | 29.1s
+[004] train loss 0.2667 acc 0.833 | val loss 0.1984 acc 0.888 auc 0.880038680781759 | 27.8s
+[005] train loss 0.2293 acc 0.857 | val loss 0.1928 acc 0.885 auc 0.7019543973941368 | 27.6s
+[006] train loss 0.2051 acc 0.870 | val loss 0.2194 acc 0.826 auc 0.7280639250814332 | 27.5s
+[007] train loss 0.2017 acc 0.848 | val loss 0.2647 acc 0.770 auc 0.6636298859934853 | 29.0s
+[008] train loss 0.1642 acc 0.899 | val loss 0.2340 acc 0.850 auc 0.6917243485342021 | 29.3s
+[009] train loss 0.1467 acc 0.910 | val loss 0.1955 acc 0.891 auc 0.7767711726384365 | 29.0s
+[010] train loss 0.1363 acc 0.916 | val loss 0.2232 acc 0.844 auc 0.7666429153094462 | 28.7s
+[011] train loss 0.1239 acc 0.909 | val loss 0.2381 acc 0.861 auc 0.7477096905537458 | 28.1s
+[012] train loss 0.1281 acc 0.915 | val loss 0.2260 acc 0.876 auc 0.738599348534202 | 27.9s
+[013] train loss 0.1098 acc 0.924 | val loss 0.2279 acc 0.891 auc 0.7750407166123777 | 28.4s
+[014] train loss 0.0889 acc 0.929 | val loss 0.2564 acc 0.835 auc 0.7528501628664496 | 27.8s
+[015] train loss 0.0835 acc 0.942 | val loss 0.2970 acc 0.808 auc 0.7553440553745929 | 27.8s
+early stopping
+best val loss 0.1928 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed1_fold3\best.pt
+[cnn_lstm_seed1_fold3/test] clips=159 videos=9  P=0.6727272727272727 R=0.3978494623655914 F1=0.5 FPR=0.2727272727272727 AUC=0.7000651678071034
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=582  non-fire=294   val clips: 273
+[001] train loss 0.4508 acc 0.591 | val loss 0.4063 acc 0.663 auc 0.6171621182586094 | 34.3s
+[002] train loss 0.4026 acc 0.667 | val loss 0.3785 acc 0.784 auc 0.7084957764782327 | 25.1s
+[003] train loss 0.3606 acc 0.725 | val loss 0.3379 acc 0.839 auc 0.7374106562703053 | 24.6s
+[004] train loss 0.2851 acc 0.811 | val loss 0.3027 acc 0.879 auc 0.7664473684210527 | 25.5s
+[005] train loss 0.2272 acc 0.848 | val loss 0.3731 acc 0.824 auc 0.751380766731644 | 25.9s
+[006] train loss 0.1956 acc 0.878 | val loss 0.5976 acc 0.645 auc 0.5930393112410657 | 25.8s
+[007] train loss 0.1831 acc 0.886 | val loss 0.6204 acc 0.685 auc 0.6704028589993503 | 25.5s
+[008] train loss 0.1622 acc 0.904 | val loss 0.6540 acc 0.670 auc 0.63300032488629 | 25.5s
+[009] train loss 0.1461 acc 0.913 | val loss 0.6394 acc 0.674 auc 0.647051656920078 | 24.5s
+[010] train loss 0.0961 acc 0.942 | val loss 0.7433 acc 0.707 auc 0.690220922677063 | 24.4s
+[011] train loss 0.1207 acc 0.927 | val loss 0.5927 acc 0.722 auc 0.7597059779077322 | 25.8s
+[012] train loss 0.1452 acc 0.908 | val loss 0.7140 acc 0.696 auc 0.6665042235217673 | 24.7s
+[013] train loss 0.1759 acc 0.879 | val loss 0.7107 acc 0.604 auc 0.5547433398310592 | 26.6s
+[014] train loss 0.1325 acc 0.912 | val loss 0.6946 acc 0.700 auc 0.6810834957764783 | 25.5s
+early stopping
+best val loss 0.3027 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed1_fold4\best.pt
+[cnn_lstm_seed1_fold4/test] clips=339 videos=10  P=0.9476744186046512 R=0.5309446254071661 F1=0.6805845511482255 FPR=0.28125 AUC=0.6683631921824105
+[fold 0] fire__building__eBLBxoVWuSk                    yolo_only=0.2s persistence=2.9s stage2_c1=4.0s stage2_c2=4.5s stage2_c3=5.0s
+[fold 0] fire__building__znoj9UPHDDY                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__firesense__posVideo3                     yolo_only=4.8s persistence=7.5s stage2_c1=7.5s stage2_c2=- stage2_c3=-
+[fold 0] fire__firesense__posVideo4                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__agv__IwRkP42tJmw                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__beacon__a9V-o_RIbFQ              yolo_only=0.5s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__glass_reflection__sJphIyIVDcI    yolo_only=0.2s persistence=65.5s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__dYBDgBbUnPw             yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__VtH6pfJlhGY             yolo_only=6.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo12                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo14                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo7                  yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__building__BOxpCa7mH1o                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] fire__factory_cctv__PIyFtxiAx0E                yolo_only=2.2s persistence=5.8s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__factory_cctv__TbgWC3zGmyU                yolo_only=10.2s persistence=12.9s stage2_c1=13.0s stage2_c2=13.5s stage2_c3=14.0s
+[fold 1] fire__firesense__posVideo7                     yolo_only=18.6s persistence=18.5s stage2_c1=18.5s stage2_c2=19.0s stage2_c3=19.5s
+[fold 1] interference__agv__rrhgrjU4dWg                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__fireplace__71ZC9LInjhU           yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] interference__floodlight__q_4ydIFk8gM          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__d86HtVaitEU              yolo_only=71.7s persistence=74.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__srB_ormB7e8              yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__factory_construction__FSx-ixVriK0      yolo_only=34.4s persistence=40.5s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo1                  yolo_only=79.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo5                  yolo_only=8.9s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo6                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] fire__firesense__posVideo10                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo5                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo6                     yolo_only=0.3s persistence=3.2s stage2_c1=3.5s stage2_c2=4.0s stage2_c3=6.5s
+[fold 2] fire__firesense__posVideo8                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] interference__floodlight__zCtHy_R9PM8          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__ucRpxirDX5s     yolo_only=14.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__xMnUicjhUBU     yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__sunlight__9qYss9qz6yA            yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__welding__igr_EMolND4             yolo_only=0.3s persistence=3.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo11                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo15                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo3                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo9                  yolo_only=2.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] fire__firesense__posVideo1                     yolo_only=6.3s persistence=7.2s stage2_c1=7.5s stage2_c2=8.0s stage2_c3=8.5s
+[fold 3] fire__firesense__posVideo11                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 3] fire__stunt_flame__HC87Uwc4OX4                 yolo_only=0.2s persistence=6.7s stage2_c1=7.0s stage2_c2=17.5s stage2_c3=-
+[fold 3] fire__vehicle__AmkmBFN6J_w                     yolo_only=0.2s persistence=2.9s stage2_c1=6.5s stage2_c2=- stage2_c3=-
+[fold 3] interference__forklift_beacon__56dsU0kXvVQ     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 3] interference__glass_reflection__kSKyCpfL4Vs    yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__glass_reflection__UxsY_Qg4Aos    yolo_only=36.5s persistence=52.2s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__sunlight_led__-BsdVPNEDJc        yolo_only=12.0s persistence=14.4s stage2_c1=51.5s stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo13                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo4                  yolo_only=28.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo8                  yolo_only=60.4s persistence=107.3s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] fire__building__mphHFk5IXsQ                    yolo_only=3.4s persistence=16.2s stage2_c1=16.5s stage2_c2=17.0s stage2_c3=17.5s
+[fold 4] fire__firesense__posVideo2                     yolo_only=0.5s persistence=9.7s stage2_c1=10.0s stage2_c2=10.5s stage2_c3=11.0s
+[fold 4] fire__firesense__posVideo9                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 4] fire__vehicle__opMG_PUVZZo                     yolo_only=0.2s persistence=2.9s stage2_c1=4.0s stage2_c2=4.5s stage2_c3=6.0s
+[fold 4] interference__agv__V1nB6seQvYA                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__forklift_linebeam__TY43Ah5oK34   yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__5GOmuoyH-7o              yolo_only=43.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__v1QuNJwyppw              yolo_only=7.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__welding__CeRRsDlQkxA             yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 4] normal__firesense__negsVideo10                 yolo_only=3.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo16                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo2                  yolo_only=4.7s persistence=6.2s stage2_c1=- stage2_c2=- stage2_c3=-
+# 시스템 단위 평가: cnn_lstm_seed1, YOLO conf 0.4, Stage2 임계값 0.75
+
+영상 61개: 화재 20, 비화재 주 집합 39 (통제된 불꽃 2개 분리)
+
+| 방법 | 화재 검출(재현율) | **주 오경보율** (n=39) | 95% CI | 통제된 불꽃 오경보 (n=2) | 전체 비화재 오경보율 (n=41) | 화재 경보까지 중앙값(초) |
+|---|---|---|---|---|---|---|
+| yolo_only | 1.000 (20/20) | **0.538** (21/39) | [0.38, 0.69] | 2/2 | 0.561 (23/41) | 0.2 |
+| persistence | 1.000 (20/20) | **0.308** (12/39) | [0.18, 0.46] | 2/2 | 0.341 (14/41) | 2.9 |
+| stage2_c1 | 0.950 (19/20) | **0.077** (3/39) | [0.00, 0.18] | 2/2 | 0.122 (5/41) | 4.0 |
+| stage2_c2 | 0.850 (17/20) | **0.051** (2/39) | [0.00, 0.13] | 2/2 | 0.098 (4/41) | 4.0 |
+| stage2_c3 | 0.800 (16/20) | **0.051** (2/39) | [0.00, 0.13] | 2/2 | 0.098 (4/41) | 4.5 |
+
+## 카테고리별 오경보 영상 수 / 영상 수 (비화재)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| interference/agv | 0/3 | 0/3 | 0/3 | 0/3 | 0/3 |
+| interference/beacon | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/fireplace (통제된 불꽃) | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/floodlight | 0/2 | 0/2 | 0/2 | 0/2 | 0/2 |
+| interference/forklift_beacon | 2/3 | 1/3 | 1/3 | 1/3 | 1/3 |
+| interference/forklift_linebeam | 0/1 | 0/1 | 0/1 | 0/1 | 0/1 |
+| interference/gas_torch (통제된 불꽃) | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/glass_reflection | 2/3 | 2/3 | 0/3 | 0/3 | 0/3 |
+| interference/strobe | 3/4 | 1/4 | 0/4 | 0/4 | 0/4 |
+| interference/sunlight | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/sunlight_led | 1/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| interference/welding | 2/3 | 1/3 | 0/3 | 0/3 | 0/3 |
+| normal/factory_construction | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| normal/firesense | 8/16 | 3/16 | 0/16 | 0/16 | 0/16 |
+
+## 화재 영상 검출 (카테고리별 검출 영상 수 / 영상 수)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| fire/building | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |
+| fire/factory_cctv | 2/2 | 2/2 | 1/2 | 1/2 | 1/2 |
+| fire/firesense | 11/11 | 11/11 | 11/11 | 10/11 | 10/11 |
+| fire/stunt_flame | 1/1 | 1/1 | 1/1 | 1/1 | 0/1 |
+| fire/vehicle | 2/2 | 2/2 | 2/2 | 1/2 | 1/2 |
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=645  non-fire=144   val clips: 426
+[001] train loss 0.1733 acc 0.792 | val loss 0.9969 acc 0.547 auc 0.4165803458836246 | 36.3s
+[002] train loss 0.1372 acc 0.847 | val loss 1.0619 acc 0.495 auc 0.4668077823815529 | 22.5s
+[003] train loss 0.1118 acc 0.883 | val loss 1.3177 acc 0.526 auc 0.36353810124301933 | 22.0s
+[004] train loss 0.1028 acc 0.894 | val loss 1.3303 acc 0.486 auc 0.35983381372725637 | 22.2s
+[005] train loss 0.0913 acc 0.891 | val loss 1.3967 acc 0.502 auc 0.45231715006305173 | 22.1s
+[006] train loss 0.0962 acc 0.890 | val loss 1.4746 acc 0.526 auc 0.37835525130607095 | 22.2s
+[007] train loss 0.0778 acc 0.928 | val loss 1.6041 acc 0.505 auc 0.39120203566924877 | 22.1s
+[008] train loss 0.0745 acc 0.915 | val loss 1.5644 acc 0.502 auc 0.4275018014772113 | 25.3s
+[009] train loss 0.0650 acc 0.928 | val loss 1.5565 acc 0.523 auc 0.48281841109709966 | 27.3s
+[010] train loss 0.0671 acc 0.935 | val loss 1.7756 acc 0.523 auc 0.4171883444424428 | 26.4s
+[011] train loss 0.0584 acc 0.932 | val loss 1.8270 acc 0.519 auc 0.44892812105926866 | 30.3s
+early stopping
+best val loss 0.9969 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed2_fold0\best.pt
+[cnn_lstm_seed2_fold0/test] clips=273 videos=9  P=0.919047619047619 R=0.8935185185185185 F1=0.9061032863849765 FPR=0.2982456140350877 AUC=0.8337394411955815
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=616  non-fire=155   val clips: 291
+[001] train loss 0.2362 acc 0.777 | val loss 0.1209 acc 0.887 auc 0.9933451641526175 | 33.0s
+[002] train loss 0.1902 acc 0.821 | val loss 0.0755 acc 0.990 auc 0.9963620230700976 | 22.9s
+[003] train loss 0.1897 acc 0.809 | val loss 0.1059 acc 0.969 auc 0.9984028393966282 | 23.8s
+[004] train loss 0.1733 acc 0.863 | val loss 0.0714 acc 0.986 auc 0.9960958296362022 | 23.4s
+[005] train loss 0.1591 acc 0.850 | val loss 0.0821 acc 0.952 auc 0.9918367346938776 | 22.3s
+[006] train loss 0.1672 acc 0.840 | val loss 0.0775 acc 0.959 auc 0.990505767524401 | 20.6s
+[007] train loss 0.1490 acc 0.872 | val loss 0.0645 acc 0.959 auc 0.9778172138420586 | 20.7s
+[008] train loss 0.1637 acc 0.844 | val loss 0.0678 acc 0.986 auc 0.9929902395740905 | 22.7s
+[009] train loss 0.1303 acc 0.886 | val loss 0.0674 acc 0.979 auc 0.9904170363797693 | 22.9s
+[010] train loss 0.1227 acc 0.908 | val loss 0.0678 acc 0.979 auc 0.9828748890860692 | 22.6s
+[011] train loss 0.1134 acc 0.908 | val loss 0.0663 acc 0.979 auc 0.9864241348713397 | 22.4s
+[012] train loss 0.1164 acc 0.916 | val loss 0.0740 acc 0.976 auc 0.973469387755102 | 21.8s
+[013] train loss 0.1078 acc 0.923 | val loss 0.0509 acc 0.997 auc 0.9929015084294588 | 22.9s
+[014] train loss 0.1103 acc 0.911 | val loss 0.0748 acc 0.973 auc 0.9711623779946761 | 23.2s
+[015] train loss 0.1439 acc 0.882 | val loss 0.0787 acc 0.948 auc 0.9946761313220941 | 23.0s
+[016] train loss 0.1266 acc 0.886 | val loss 0.0765 acc 0.979 auc 0.9604259094942325 | 23.8s
+[017] train loss 0.1041 acc 0.908 | val loss 0.0463 acc 0.986 auc 0.9940550133096717 | 24.6s
+[018] train loss 0.1021 acc 0.929 | val loss 0.0608 acc 0.983 auc 0.9825199645075421 | 23.8s
+[019] train loss 0.0944 acc 0.916 | val loss 0.0581 acc 0.983 auc 0.9915705412599823 | 23.1s
+[020] train loss 0.0885 acc 0.929 | val loss 0.0788 acc 0.976 auc 0.9525288376220052 | 22.1s
+[021] train loss 0.0808 acc 0.944 | val loss 0.0677 acc 0.976 auc 0.9761313220940551 | 22.7s
+[022] train loss 0.0774 acc 0.939 | val loss 0.1362 acc 0.797 auc 0.9121118012422361 | 25.8s
+[023] train loss 0.0759 acc 0.935 | val loss 0.0648 acc 0.979 auc 0.9883762200532387 | 22.8s
+[024] train loss 0.0597 acc 0.958 | val loss 0.0704 acc 0.966 auc 0.9759982253771073 | 22.4s
+[025] train loss 0.0500 acc 0.956 | val loss 0.1235 acc 0.849 auc 0.9136645962732919 | 25.2s
+[026] train loss 0.0820 acc 0.930 | val loss 0.0787 acc 0.979 auc 0.9501330967169477 | 26.1s
+[027] train loss 0.0684 acc 0.952 | val loss 0.1331 acc 0.883 auc 0.8598935226264419 | 23.6s
+early stopping
+best val loss 0.0463 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed2_fold1\best.pt
+[cnn_lstm_seed2_fold1/test] clips=426 videos=11  P=0.506578947368421 R=0.6311475409836066 F1=0.5620437956204379 FPR=0.8241758241758241 AUC=0.41728967753557916
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=767  non-fire=271   val clips: 159
+[001] train loss 0.3241 acc 0.695 | val loss 0.4542 acc 0.604 auc 0.4706744868035191 | 36.4s
+[002] train loss 0.2852 acc 0.782 | val loss 0.6962 acc 0.333 auc 0.24486803519061584 | 26.8s
+[003] train loss 0.2695 acc 0.791 | val loss 0.4960 acc 0.491 auc 0.5528673835125447 | 27.1s
+[004] train loss 0.2250 acc 0.819 | val loss 0.4025 acc 0.660 auc 0.6987618116650375 | 27.6s
+[005] train loss 0.2244 acc 0.822 | val loss 0.6071 acc 0.541 auc 0.5355164548712936 | 26.3s
+[006] train loss 0.1919 acc 0.850 | val loss 0.6600 acc 0.572 auc 0.5957152166829586 | 26.7s
+[007] train loss 0.1717 acc 0.874 | val loss 0.6118 acc 0.597 auc 0.6322091886608014 | 31.9s
+[008] train loss 0.1538 acc 0.880 | val loss 0.4878 acc 0.723 auc 0.7745193874226133 | 36.9s
+[009] train loss 0.1951 acc 0.864 | val loss 0.5819 acc 0.623 auc 0.7122026718800912 | 37.5s
+[010] train loss 0.1076 acc 0.915 | val loss 0.3861 acc 0.748 auc 0.7965135223199741 | 35.4s
+[011] train loss 0.1116 acc 0.906 | val loss 0.7226 acc 0.591 auc 0.6989247311827957 | 26.8s
+[012] train loss 0.1031 acc 0.923 | val loss 0.5735 acc 0.679 auc 0.664059954382535 | 26.7s
+[013] train loss 0.1061 acc 0.908 | val loss 0.4324 acc 0.660 auc 0.6639784946236559 | 25.8s
+[014] train loss 0.0952 acc 0.930 | val loss 0.6476 acc 0.585 auc 0.7284131638970348 | 26.5s
+[015] train loss 0.0757 acc 0.944 | val loss 0.6463 acc 0.635 auc 0.7447865754317367 | 26.4s
+[016] train loss 0.0773 acc 0.940 | val loss 0.7369 acc 0.610 auc 0.7198598892147279 | 27.6s
+[017] train loss 0.0828 acc 0.941 | val loss 0.5902 acc 0.642 auc 0.7302052785923754 | 27.6s
+[018] train loss 0.0921 acc 0.926 | val loss 0.6607 acc 0.679 auc 0.7253176930596286 | 25.8s
+[019] train loss 0.0708 acc 0.945 | val loss 0.5524 acc 0.654 auc 0.7144835451287064 | 26.1s
+[020] train loss 0.0772 acc 0.943 | val loss 0.4489 acc 0.730 auc 0.8400130335614207 | 26.3s
+early stopping
+best val loss 0.3861 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed2_fold2\best.pt
+[cnn_lstm_seed2_fold2/test] clips=291 videos=9  P=0.9885057471264368 R=0.7020408163265306 F1=0.8210023866348449 FPR=0.043478260869565216 AUC=0.8232475598935225
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=705  non-fire=285   val clips: 339
+[001] train loss 0.3614 acc 0.641 | val loss 0.2391 acc 0.826 auc 0.8226791530944625 | 37.4s
+[002] train loss 0.2951 acc 0.805 | val loss 0.2552 acc 0.737 auc 0.7644543973941368 | 27.5s
+[003] train loss 0.2731 acc 0.823 | val loss 0.1697 acc 0.920 auc 0.8115838762214983 | 27.3s
+[004] train loss 0.2533 acc 0.845 | val loss 0.1779 acc 0.903 auc 0.7476078990228012 | 27.5s
+[005] train loss 0.2088 acc 0.865 | val loss 0.1830 acc 0.879 auc 0.7542752442996743 | 27.4s
+[006] train loss 0.2095 acc 0.858 | val loss 0.1828 acc 0.914 auc 0.7005802117263844 | 27.0s
+[007] train loss 0.1976 acc 0.862 | val loss 0.1991 acc 0.909 auc 0.6762011400651465 | 27.1s
+[008] train loss 0.1714 acc 0.891 | val loss 0.2539 acc 0.794 auc 0.7097414495114006 | 27.3s
+[009] train loss 0.1584 acc 0.889 | val loss 0.1725 acc 0.920 auc 0.818505700325733 | 26.4s
+[010] train loss 0.1351 acc 0.900 | val loss 0.3025 acc 0.746 auc 0.6819523615635179 | 26.6s
+[011] train loss 0.1458 acc 0.908 | val loss 0.2944 acc 0.808 auc 0.6236258143322475 | 26.5s
+[012] train loss 0.1417 acc 0.905 | val loss 0.1967 acc 0.894 auc 0.7490329804560261 | 28.7s
+[013] train loss 0.1085 acc 0.927 | val loss 0.2001 acc 0.903 auc 0.7651160423452771 | 27.7s
+early stopping
+best val loss 0.1697 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed2_fold3\best.pt
+[cnn_lstm_seed2_fold3/test] clips=159 videos=9  P=0.4838709677419355 R=0.16129032258064516 F1=0.24193548387096772 FPR=0.24242424242424243 AUC=0.46985988921472793
+device=cuda  NVIDIA GeForce RTX 5070 Laptop GPU
+train clips: fire=582  non-fire=294   val clips: 273
+[001] train loss 0.4199 acc 0.654 | val loss 0.3853 acc 0.733 auc 0.6318226120857701 | 33.3s
+[002] train loss 0.3518 acc 0.758 | val loss 0.3426 acc 0.810 auc 0.7192170240415855 | 23.4s
+[003] train loss 0.3128 acc 0.773 | val loss 0.4725 acc 0.564 auc 0.732943469785575 | 22.8s
+[004] train loss 0.2409 acc 0.836 | val loss 0.3600 acc 0.824 auc 0.760030864197531 | 23.0s
+[005] train loss 0.1641 acc 0.893 | val loss 0.5504 acc 0.806 auc 0.653874269005848 | 23.5s
+[006] train loss 0.1657 acc 0.889 | val loss 0.4132 acc 0.806 auc 0.775706627680312 | 23.9s
+[007] train loss 0.1538 acc 0.892 | val loss 0.5203 acc 0.821 auc 0.6961907082521117 | 24.0s
+[008] train loss 0.1699 acc 0.889 | val loss 0.6156 acc 0.722 auc 0.6727988953866145 | 24.0s
+[009] train loss 0.1243 acc 0.918 | val loss 0.4674 acc 0.828 auc 0.7346897335932424 | 23.8s
+[010] train loss 0.1070 acc 0.928 | val loss 0.7115 acc 0.663 auc 0.6666260558804418 | 23.4s
+[011] train loss 0.0984 acc 0.926 | val loss 0.6620 acc 0.670 auc 0.6617121507472385 | 23.2s
+[012] train loss 0.1009 acc 0.930 | val loss 0.7930 acc 0.821 auc 0.678849902534113 | 23.5s
+early stopping
+best val loss 0.3426 -> D:\Source\indai\industrial_fire_dectection\models\weights\cnn_lstm_seed2_fold4\best.pt
+[cnn_lstm_seed2_fold4/test] clips=339 videos=10  P=0.9285714285714286 R=0.3811074918566775 F1=0.5404157043879908 FPR=0.28125 AUC=0.716307003257329
+[fold 0] fire__building__eBLBxoVWuSk                    yolo_only=0.2s persistence=2.9s stage2_c1=4.0s stage2_c2=4.5s stage2_c3=5.0s
+[fold 0] fire__building__znoj9UPHDDY                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__firesense__posVideo3                     yolo_only=4.8s persistence=7.5s stage2_c1=7.5s stage2_c2=8.0s stage2_c3=8.5s
+[fold 0] fire__firesense__posVideo4                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__agv__IwRkP42tJmw                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__beacon__a9V-o_RIbFQ              yolo_only=0.5s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__glass_reflection__sJphIyIVDcI    yolo_only=0.2s persistence=65.5s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__dYBDgBbUnPw             yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__VtH6pfJlhGY             yolo_only=6.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo12                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo14                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo7                  yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__building__BOxpCa7mH1o                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] fire__factory_cctv__PIyFtxiAx0E                yolo_only=2.2s persistence=5.8s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__factory_cctv__TbgWC3zGmyU                yolo_only=10.2s persistence=12.9s stage2_c1=15.0s stage2_c2=15.5s stage2_c3=16.0s
+[fold 1] fire__firesense__posVideo7                     yolo_only=18.6s persistence=18.5s stage2_c1=21.0s stage2_c2=23.0s stage2_c3=-
+[fold 1] interference__agv__rrhgrjU4dWg                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__fireplace__71ZC9LInjhU           yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] interference__floodlight__q_4ydIFk8gM          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__d86HtVaitEU              yolo_only=71.7s persistence=74.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__srB_ormB7e8              yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__factory_construction__FSx-ixVriK0      yolo_only=34.4s persistence=40.5s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo1                  yolo_only=79.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo5                  yolo_only=8.9s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo6                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] fire__firesense__posVideo10                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo5                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo6                     yolo_only=0.3s persistence=3.2s stage2_c1=3.5s stage2_c2=4.0s stage2_c3=6.5s
+[fold 2] fire__firesense__posVideo8                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] interference__floodlight__zCtHy_R9PM8          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__ucRpxirDX5s     yolo_only=14.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__xMnUicjhUBU     yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__sunlight__9qYss9qz6yA            yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__welding__igr_EMolND4             yolo_only=0.3s persistence=3.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo11                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo15                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo3                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo9                  yolo_only=2.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] fire__firesense__posVideo1                     yolo_only=6.3s persistence=7.2s stage2_c1=22.5s stage2_c2=23.0s stage2_c3=-
+[fold 3] fire__firesense__posVideo11                    yolo_only=0.2s persistence=2.9s stage2_c1=6.0s stage2_c2=6.5s stage2_c3=7.5s
+[fold 3] fire__stunt_flame__HC87Uwc4OX4                 yolo_only=0.2s persistence=6.7s stage2_c1=7.0s stage2_c2=17.0s stage2_c3=17.5s
+[fold 3] fire__vehicle__AmkmBFN6J_w                     yolo_only=0.2s persistence=2.9s stage2_c1=8.0s stage2_c2=- stage2_c3=-
+[fold 3] interference__forklift_beacon__56dsU0kXvVQ     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 3] interference__glass_reflection__kSKyCpfL4Vs    yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__glass_reflection__UxsY_Qg4Aos    yolo_only=36.5s persistence=52.2s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__sunlight_led__-BsdVPNEDJc        yolo_only=12.0s persistence=14.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo13                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo4                  yolo_only=28.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo8                  yolo_only=60.4s persistence=107.3s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] fire__building__mphHFk5IXsQ                    yolo_only=3.4s persistence=16.2s stage2_c1=16.5s stage2_c2=17.0s stage2_c3=17.5s
+[fold 4] fire__firesense__posVideo2                     yolo_only=0.5s persistence=9.7s stage2_c1=10.0s stage2_c2=10.5s stage2_c3=11.0s
+[fold 4] fire__firesense__posVideo9                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=9.5s stage2_c3=17.5s
+[fold 4] fire__vehicle__opMG_PUVZZo                     yolo_only=0.2s persistence=2.9s stage2_c1=4.0s stage2_c2=4.5s stage2_c3=5.5s
+[fold 4] interference__agv__V1nB6seQvYA                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__forklift_linebeam__TY43Ah5oK34   yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__5GOmuoyH-7o              yolo_only=43.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__v1QuNJwyppw              yolo_only=7.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__welding__CeRRsDlQkxA             yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 4] normal__firesense__negsVideo10                 yolo_only=3.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo16                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo2                  yolo_only=4.7s persistence=6.2s stage2_c1=- stage2_c2=- stage2_c3=-
+# 시스템 단위 평가: cnn_lstm_seed2, YOLO conf 0.4, Stage2 임계값 0.75
+
+영상 61개: 화재 20, 비화재 주 집합 39 (통제된 불꽃 2개 분리)
+
+| 방법 | 화재 검출(재현율) | **주 오경보율** (n=39) | 95% CI | 통제된 불꽃 오경보 (n=2) | 전체 비화재 오경보율 (n=41) | 화재 경보까지 중앙값(초) |
+|---|---|---|---|---|---|---|
+| yolo_only | 1.000 (20/20) | **0.538** (21/39) | [0.38, 0.69] | 2/2 | 0.561 (23/41) | 0.2 |
+| persistence | 1.000 (20/20) | **0.308** (12/39) | [0.18, 0.46] | 2/2 | 0.341 (14/41) | 2.9 |
+| stage2_c1 | 0.950 (19/20) | **0.051** (2/39) | [0.00, 0.13] | 2/2 | 0.098 (4/41) | 4.0 |
+| stage2_c2 | 0.900 (18/20) | **0.051** (2/39) | [0.00, 0.13] | 2/2 | 0.098 (4/41) | 5.5 |
+| stage2_c3 | 0.800 (16/20) | **0.051** (2/39) | [0.00, 0.13] | 2/2 | 0.098 (4/41) | 6.0 |
+
+## 카테고리별 오경보 영상 수 / 영상 수 (비화재)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| interference/agv | 0/3 | 0/3 | 0/3 | 0/3 | 0/3 |
+| interference/beacon | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/fireplace (통제된 불꽃) | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/floodlight | 0/2 | 0/2 | 0/2 | 0/2 | 0/2 |
+| interference/forklift_beacon | 2/3 | 1/3 | 1/3 | 1/3 | 1/3 |
+| interference/forklift_linebeam | 0/1 | 0/1 | 0/1 | 0/1 | 0/1 |
+| interference/gas_torch (통제된 불꽃) | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/glass_reflection | 2/3 | 2/3 | 0/3 | 0/3 | 0/3 |
+| interference/strobe | 3/4 | 1/4 | 0/4 | 0/4 | 0/4 |
+| interference/sunlight | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/sunlight_led | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/welding | 2/3 | 1/3 | 0/3 | 0/3 | 0/3 |
+| normal/factory_construction | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| normal/firesense | 8/16 | 3/16 | 0/16 | 0/16 | 0/16 |
+
+## 화재 영상 검출 (카테고리별 검출 영상 수 / 영상 수)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| fire/building | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |
+| fire/factory_cctv | 2/2 | 2/2 | 1/2 | 1/2 | 1/2 |
+| fire/firesense | 11/11 | 11/11 | 11/11 | 11/11 | 9/11 |
+| fire/stunt_flame | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| fire/vehicle | 2/2 | 2/2 | 2/2 | 1/2 | 1/2 |

@@ -1,0 +1,192 @@
+[fold 0] fire__building__eBLBxoVWuSk                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__building__znoj9UPHDDY                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__firesense__posVideo3                     yolo_only=4.8s persistence=7.5s stage2_c1=7.5s stage2_c2=8.0s stage2_c3=8.5s
+[fold 0] fire__firesense__posVideo4                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__agv__IwRkP42tJmw                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__beacon__a9V-o_RIbFQ              yolo_only=0.5s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__glass_reflection__sJphIyIVDcI    yolo_only=0.2s persistence=65.5s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__dYBDgBbUnPw             yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__VtH6pfJlhGY             yolo_only=6.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo12                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo14                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo7                  yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__building__BOxpCa7mH1o                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] fire__factory_cctv__PIyFtxiAx0E                yolo_only=2.2s persistence=5.8s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__factory_cctv__TbgWC3zGmyU                yolo_only=10.2s persistence=12.9s stage2_c1=13.0s stage2_c2=13.5s stage2_c3=14.0s
+[fold 1] fire__firesense__posVideo7                     yolo_only=18.6s persistence=18.5s stage2_c1=18.5s stage2_c2=19.0s stage2_c3=19.5s
+[fold 1] interference__agv__rrhgrjU4dWg                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__fireplace__71ZC9LInjhU           yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] interference__floodlight__q_4ydIFk8gM          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__d86HtVaitEU              yolo_only=71.7s persistence=74.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__srB_ormB7e8              yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__factory_construction__FSx-ixVriK0      yolo_only=34.4s persistence=40.5s stage2_c1=46.0s stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo1                  yolo_only=79.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo5                  yolo_only=8.9s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo6                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] fire__firesense__posVideo10                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo5                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo6                     yolo_only=0.3s persistence=3.2s stage2_c1=3.5s stage2_c2=4.0s stage2_c3=6.5s
+[fold 2] fire__firesense__posVideo8                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] interference__floodlight__zCtHy_R9PM8          yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__ucRpxirDX5s     yolo_only=14.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__xMnUicjhUBU     yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__sunlight__9qYss9qz6yA            yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__welding__igr_EMolND4             yolo_only=0.3s persistence=3.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo11                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo15                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo3                  yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo9                  yolo_only=2.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] fire__firesense__posVideo1                     yolo_only=6.3s persistence=7.2s stage2_c1=7.5s stage2_c2=8.0s stage2_c3=8.5s
+[fold 3] fire__firesense__posVideo11                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 3] fire__stunt_flame__HC87Uwc4OX4                 yolo_only=0.2s persistence=6.7s stage2_c1=7.0s stage2_c2=17.5s stage2_c3=-
+[fold 3] fire__vehicle__AmkmBFN6J_w                     yolo_only=0.2s persistence=2.9s stage2_c1=6.5s stage2_c2=7.0s stage2_c3=-
+[fold 3] interference__forklift_beacon__56dsU0kXvVQ     yolo_only=0.2s persistence=2.9s stage2_c1=3.5s stage2_c2=4.0s stage2_c3=-
+[fold 3] interference__glass_reflection__kSKyCpfL4Vs    yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__glass_reflection__UxsY_Qg4Aos    yolo_only=36.5s persistence=52.2s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__sunlight_led__-BsdVPNEDJc        yolo_only=12.0s persistence=14.4s stage2_c1=51.5s stage2_c2=52.0s stage2_c3=-
+[fold 3] normal__firesense__negsVideo13                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo4                  yolo_only=28.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo8                  yolo_only=60.4s persistence=107.3s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] fire__building__mphHFk5IXsQ                    yolo_only=3.4s persistence=16.2s stage2_c1=16.5s stage2_c2=17.0s stage2_c3=17.5s
+[fold 4] fire__firesense__posVideo2                     yolo_only=0.5s persistence=9.7s stage2_c1=10.0s stage2_c2=10.5s stage2_c3=11.0s
+[fold 4] fire__firesense__posVideo9                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=4.5s stage2_c3=5.0s
+[fold 4] fire__vehicle__opMG_PUVZZo                     yolo_only=0.2s persistence=2.9s stage2_c1=4.5s stage2_c2=6.0s stage2_c3=6.5s
+[fold 4] interference__agv__V1nB6seQvYA                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__forklift_linebeam__TY43Ah5oK34   yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__5GOmuoyH-7o              yolo_only=43.8s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__v1QuNJwyppw              yolo_only=7.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__welding__CeRRsDlQkxA             yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 4] normal__firesense__negsVideo10                 yolo_only=3.3s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo16                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo2                  yolo_only=4.7s persistence=6.2s stage2_c1=- stage2_c2=- stage2_c3=-
+# 시스템 단위 평가: cnn_lstm, YOLO conf 0.4, Stage2 임계값 0.75, 영상 61개 (fire 20 / 비화재 41)
+
+| 방법 | 화재 영상 검출(재현율) | 비화재 영상 오경보(FPR) | FPR 95% CI | 화재 경보까지 중앙값(초) |
+|---|---|---|---|---|
+| yolo_only | 1.000 (20/20) | 0.561 (23/41) | [0.39, 0.71] | 0.2 |
+| persistence | 1.000 (20/20) | 0.341 (14/41) | [0.22, 0.49] | 2.9 |
+| stage2_c1 | 0.950 (19/20) | 0.146 (6/41) | [0.05, 0.27] | 3.5 |
+| stage2_c2 | 0.950 (19/20) | 0.122 (5/41) | [0.02, 0.24] | 4.5 |
+| stage2_c3 | 0.850 (17/20) | 0.073 (3/41) | [0.00, 0.17] | 5.0 |
+
+## 카테고리별 오경보 영상 수 / 영상 수 (비화재)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| interference/agv | 0/3 | 0/3 | 0/3 | 0/3 | 0/3 |
+| interference/beacon | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/fireplace | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/floodlight | 0/2 | 0/2 | 0/2 | 0/2 | 0/2 |
+| interference/forklift_beacon | 2/3 | 1/3 | 1/3 | 1/3 | 0/3 |
+| interference/forklift_linebeam | 0/1 | 0/1 | 0/1 | 0/1 | 0/1 |
+| interference/glass_reflection | 2/3 | 2/3 | 0/3 | 0/3 | 0/3 |
+| interference/strobe | 3/4 | 1/4 | 0/4 | 0/4 | 0/4 |
+| interference/sunlight | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/sunlight_led | 1/1 | 1/1 | 1/1 | 1/1 | 0/1 |
+| interference/welding | 3/4 | 2/4 | 1/4 | 1/4 | 1/4 |
+| normal/factory_construction | 1/1 | 1/1 | 1/1 | 0/1 | 0/1 |
+| normal/firesense | 8/16 | 3/16 | 0/16 | 0/16 | 0/16 |
+
+## 화재 영상 검출 (카테고리별 검출 영상 수 / 영상 수)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| fire/building | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |
+| fire/factory_cctv | 2/2 | 2/2 | 1/2 | 1/2 | 1/2 |
+| fire/firesense | 11/11 | 11/11 | 11/11 | 11/11 | 11/11 |
+| fire/stunt_flame | 1/1 | 1/1 | 1/1 | 1/1 | 0/1 |
+| fire/vehicle | 2/2 | 2/2 | 2/2 | 2/2 | 1/2 |
+[fold 0] fire__building__eBLBxoVWuSk                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__building__znoj9UPHDDY                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__firesense__posVideo3                     yolo_only=0.2s persistence=3.0s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] fire__firesense__posVideo4                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__agv__IwRkP42tJmw                 yolo_only=12.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__beacon__a9V-o_RIbFQ              yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 0] interference__glass_reflection__sJphIyIVDcI    yolo_only=0.2s persistence=2.9s stage2_c1=51.5s stage2_c2=52.0s stage2_c3=-
+[fold 0] interference__welding__dYBDgBbUnPw             yolo_only=5.2s persistence=7.2s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] interference__welding__VtH6pfJlhGY             yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo12                 yolo_only=18.0s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo14                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 0] normal__firesense__negsVideo7                  yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__building__BOxpCa7mH1o                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] fire__factory_cctv__PIyFtxiAx0E                yolo_only=0.2s persistence=3.7s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] fire__factory_cctv__TbgWC3zGmyU                yolo_only=0.6s persistence=3.3s stage2_c1=12.0s stage2_c2=12.5s stage2_c3=13.0s
+[fold 1] fire__firesense__posVideo7                     yolo_only=16.6s persistence=17.3s stage2_c1=17.5s stage2_c2=18.0s stage2_c3=18.5s
+[fold 1] interference__agv__rrhgrjU4dWg                 yolo_only=30.2s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__fireplace__71ZC9LInjhU           yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 1] interference__floodlight__q_4ydIFk8gM          yolo_only=6.2s persistence=3.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__d86HtVaitEU              yolo_only=3.8s persistence=47.9s stage2_c1=48.0s stage2_c2=- stage2_c3=-
+[fold 1] interference__strobe__srB_ormB7e8              yolo_only=7.4s persistence=14.0s stage2_c1=14.0s stage2_c2=14.5s stage2_c3=15.0s
+[fold 1] normal__factory_construction__FSx-ixVriK0      yolo_only=27.6s persistence=30.3s stage2_c1=46.5s stage2_c2=47.0s stage2_c3=-
+[fold 1] normal__firesense__negsVideo1                  yolo_only=4.4s persistence=51.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo5                  yolo_only=0.5s persistence=6.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 1] normal__firesense__negsVideo6                  yolo_only=39.1s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] fire__firesense__posVideo10                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo5                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] fire__firesense__posVideo6                     yolo_only=0.3s persistence=3.0s stage2_c1=4.0s stage2_c2=4.5s stage2_c3=5.0s
+[fold 2] fire__firesense__posVideo8                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 2] interference__floodlight__zCtHy_R9PM8          yolo_only=11.6s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__forklift_beacon__ucRpxirDX5s     yolo_only=1.5s persistence=4.2s stage2_c1=4.5s stage2_c2=5.0s stage2_c3=5.5s
+[fold 2] interference__forklift_beacon__xMnUicjhUBU     yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__sunlight__9qYss9qz6yA            yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] interference__welding__igr_EMolND4             yolo_only=0.3s persistence=3.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo11                 yolo_only=0.2s persistence=2.9s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo15                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo3                  yolo_only=8.7s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 2] normal__firesense__negsVideo9                  yolo_only=0.3s persistence=3.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] fire__firesense__posVideo1                     yolo_only=0.7s persistence=5.1s stage2_c1=7.0s stage2_c2=7.5s stage2_c3=8.0s
+[fold 3] fire__firesense__posVideo11                    yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 3] fire__stunt_flame__HC87Uwc4OX4                 yolo_only=0.2s persistence=5.4s stage2_c1=5.5s stage2_c2=6.0s stage2_c3=6.5s
+[fold 3] fire__vehicle__AmkmBFN6J_w                     yolo_only=0.2s persistence=3.2s stage2_c1=6.0s stage2_c2=6.5s stage2_c3=7.0s
+[fold 3] interference__forklift_beacon__56dsU0kXvVQ     yolo_only=0.2s persistence=2.9s stage2_c1=3.5s stage2_c2=4.0s stage2_c3=-
+[fold 3] interference__glass_reflection__kSKyCpfL4Vs    yolo_only=52.7s persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__glass_reflection__UxsY_Qg4Aos    yolo_only=10.4s persistence=13.1s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] interference__sunlight_led__-BsdVPNEDJc        yolo_only=8.0s persistence=13.6s stage2_c1=51.5s stage2_c2=52.0s stage2_c3=-
+[fold 3] normal__firesense__negsVideo13                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 3] normal__firesense__negsVideo4                  yolo_only=6.7s persistence=24.9s stage2_c1=34.0s stage2_c2=34.5s stage2_c3=35.0s
+[fold 3] normal__firesense__negsVideo8                  yolo_only=4.2s persistence=23.4s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] fire__building__mphHFk5IXsQ                    yolo_only=3.4s persistence=7.0s stage2_c1=12.0s stage2_c2=12.5s stage2_c3=13.0s
+[fold 4] fire__firesense__posVideo2                     yolo_only=0.3s persistence=6.5s stage2_c1=6.5s stage2_c2=7.0s stage2_c3=7.5s
+[fold 4] fire__firesense__posVideo9                     yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=5.0s stage2_c3=5.5s
+[fold 4] fire__vehicle__opMG_PUVZZo                     yolo_only=0.2s persistence=2.9s stage2_c1=3.5s stage2_c2=5.0s stage2_c3=5.5s
+[fold 4] interference__agv__V1nB6seQvYA                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__forklift_linebeam__TY43Ah5oK34   yolo_only=2.7s persistence=10.0s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__strobe__5GOmuoyH-7o              yolo_only=1.1s persistence=11.3s stage2_c1=11.5s stage2_c2=12.5s stage2_c3=13.0s
+[fold 4] interference__strobe__v1QuNJwyppw              yolo_only=7.6s persistence=10.3s stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] interference__welding__CeRRsDlQkxA             yolo_only=0.2s persistence=2.9s stage2_c1=3.0s stage2_c2=3.5s stage2_c3=4.0s
+[fold 4] normal__firesense__negsVideo10                 yolo_only=2.9s persistence=6.9s stage2_c1=7.0s stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo16                 yolo_only=- persistence=- stage2_c1=- stage2_c2=- stage2_c3=-
+[fold 4] normal__firesense__negsVideo2                  yolo_only=2.8s persistence=5.0s stage2_c1=- stage2_c2=- stage2_c3=-
+# 시스템 단위 평가: cnn_lstm, YOLO conf 0.15, Stage2 임계값 0.75, 영상 61개 (fire 20 / 비화재 41)
+
+| 방법 | 화재 영상 검출(재현율) | 비화재 영상 오경보(FPR) | FPR 95% CI | 화재 경보까지 중앙값(초) |
+|---|---|---|---|---|
+| yolo_only | 1.000 (20/20) | 0.854 (35/41) | [0.73, 0.95] | 0.2 |
+| persistence | 1.000 (20/20) | 0.683 (28/41) | [0.54, 0.83] | 3.0 |
+| stage2_c1 | 0.950 (19/20) | 0.317 (13/41) | [0.20, 0.46] | 3.0 |
+| stage2_c2 | 0.950 (19/20) | 0.268 (11/41) | [0.15, 0.41] | 4.5 |
+| stage2_c3 | 0.950 (19/20) | 0.171 (7/41) | [0.07, 0.29] | 5.0 |
+
+## 카테고리별 오경보 영상 수 / 영상 수 (비화재)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| interference/agv | 2/3 | 0/3 | 0/3 | 0/3 | 0/3 |
+| interference/beacon | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/fireplace | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| interference/floodlight | 2/2 | 1/2 | 0/2 | 0/2 | 0/2 |
+| interference/forklift_beacon | 2/3 | 2/3 | 2/3 | 2/3 | 1/3 |
+| interference/forklift_linebeam | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/glass_reflection | 3/3 | 2/3 | 1/3 | 1/3 | 0/3 |
+| interference/strobe | 4/4 | 4/4 | 3/4 | 2/4 | 2/4 |
+| interference/sunlight | 1/1 | 1/1 | 0/1 | 0/1 | 0/1 |
+| interference/sunlight_led | 1/1 | 1/1 | 1/1 | 1/1 | 0/1 |
+| interference/welding | 4/4 | 4/4 | 1/4 | 1/4 | 1/4 |
+| normal/factory_construction | 1/1 | 1/1 | 1/1 | 1/1 | 0/1 |
+| normal/firesense | 12/16 | 9/16 | 2/16 | 1/16 | 1/16 |
+
+## 화재 영상 검출 (카테고리별 검출 영상 수 / 영상 수)
+| 카테고리 | yolo_only | persistence | stage2_c1 | stage2_c2 | stage2_c3 |
+|---|---|---|---|---|---|
+| fire/building | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |
+| fire/factory_cctv | 2/2 | 2/2 | 1/2 | 1/2 | 1/2 |
+| fire/firesense | 11/11 | 11/11 | 11/11 | 11/11 | 11/11 |
+| fire/stunt_flame | 1/1 | 1/1 | 1/1 | 1/1 | 1/1 |
+| fire/vehicle | 2/2 | 2/2 | 2/2 | 2/2 | 2/2 |
