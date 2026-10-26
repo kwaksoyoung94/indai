@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "device": "cuda",
+    "source_fps": 29.97002997002997,
+    "frame_skip": 3,
+    "frames_read": 2400,
+    "frames_analyzed": 800,
+    "analyzed_fps_compute_only": 125.97857602003079,
+    "wall_clock_sec": 9.566166399978101,
+    "timing_ms": {
+      "stage1_detect_ms": {
+        "n": 800,
+        "mean": 7.826227624900639,
+        "p50": 5.7848000433295965,
+        "p95": 8.34553486201912
+      },
+      "track_crop_ms": {
+        "n": 800,
+        "mean": 0.036865247529931366,
+        "p50": 0.009400071576237679,
+        "p95": 0.13013011775910288
+      },
+      "total_ms": {
+        "n": 800,
+        "mean": 7.9378576230374165,
+        "p50": 5.804200074635446,
+        "p95": 9.26730512874201
+      },
+      "stage2_classify_ms": {
+        "n": 11,
+        "mean": 5.380418172783473,
+        "p50": 4.826399963349104,
+        "p95": 7.881299941800535
+      }
+    },
+    "classified_windows": 11,
+    "fire_windows": 0,
+    "fire_track_ids": [],
+    "threshold": 0.75
+  },
+  "events": [
+    {
+      "frame": 2232,
+      "track_id": 9,
+      "prob": 0.31653234362602234,
+      "is_fire": false
+    },
+    {
+      "frame": 2235,
+      "track_id": 9,
+      "prob": 0.03175131976604462,
+      "is_fire": false
+    },
+    {
+      "frame": 2238,
+      "track_id": 9,
+      "prob": 0.026231277734041214,
+      "is_fire": false
+    },
+    {
+      "frame": 2241,
+      "track_id": 9,
+      "prob": 0.024850966408848763,
+      "is_fire": false
+    },
+    {
+      "frame": 2244,
+      "track_id": 9,
+      "prob": 0.02498292177915573,
+      "is_fire": false
+    },
+    {
+      "frame": 2247,
+      "track_id": 9,
+      "prob": 0.025868915021419525,
+      "is_fire": false
+    },
+    {
+      "frame": 2250,
+      "track_id": 9,
+      "prob": 0.027009274810552597,
+      "is_fire": false
+    },
+    {
+      "frame": 2253,
+      "track_id": 9,
+      "prob": 0.0281522236764431,
+      "is_fire": false
+    },
+    {
+      "frame": 2256,
+      "track_id": 9,
+      "prob": 0.029215777292847633,
+      "is_fire": false
+    },
+    {
+      "frame": 2259,
+      "track_id": 9,
+      "prob": 0.030231567099690437,
+      "is_fire": false
+    },
+    {
+      "frame": 2262,
+      "track_id": 9,
+      "prob": 0.031239066272974014,
+      "is_fire": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "ssim_mean": {
+    "fire_median": 0.6068028963496745,
+    "nonfire_median": 0.7662012452222693,
+    "auc_video_level": 0.23928571428571427,
+    "mannwhitney_p": 0.002344526981606507,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "ssim_std": {
+    "fire_median": 0.1154295191496748,
+    "nonfire_median": 0.12867676008492207,
+    "auc_video_level": 0.5196428571428572,
+    "mannwhitney_p": 0.8262002033788082,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "mse_mean": {
+    "fire_median": 911.6985020796109,
+    "nonfire_median": 620.3773593902588,
+    "auc_video_level": 0.6660714285714286,
+    "mannwhitney_p": 0.0530672395701306,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "mse_std": {
+    "fire_median": 692.7491323551662,
+    "nonfire_median": 758.3325747344229,
+    "auc_video_level": 0.49642857142857144,
+    "mannwhitney_p": 0.9749758881263303,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "bright_mean": {
+    "fire_median": 113.73149625048225,
+    "nonfire_median": 118.46282730102538,
+    "auc_video_level": 0.4642857142857143,
+    "mannwhitney_p": 0.6834301935018288,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "bright_std": {
+    "fire_median": 8.740329882960427,
+    "nonfire_median": 8.825472826552753,
+    "auc_video_level": 0.40714285714285714,
+    "mannwhitney_p": 0.2814912390719567,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "ssim_peak_ratio": {
+    "fire_median": 0.26977302270495096,
+    "nonfire_median": 0.25994030245492183,
+    "auc_video_level": 0.6125,
+    "mannwhitney_p": 0.19120964596351997,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "ssim_spec_entropy": {
+    "fire_median": 0.8285208893063076,
+    "nonfire_median": 0.8396182943434908,
+    "auc_video_level": 0.3535714285714286,
+    "mannwhitney_p": 0.08831762907801917,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "bright_peak_ratio": {
+    "fire_median": 0.47428699659487794,
+    "nonfire_median": 0.45605747815378117,
+    "auc_video_level": 0.5410714285714286,
+    "mannwhitney_p": 0.6379812276314807,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "bright_spec_entropy": {
+    "fire_median": 0.6184396461887023,
+    "nonfire_median": 0.6302211691915218,
+    "auc_video_level": 0.4678571428571429,
+    "mannwhitney_p": 0.7143930376343264,
+    "n_fire": 20,
+    "n_nonfire": 28
+  },
+  "ssim_roughness": {
+    "fire_median": 0.10479480273420086,
+    "nonfire_median": 0.1111489894466351,
+    "auc_video_level": 0.5339285714285714,
+    "mannwhitney_p": 0.6988489929058005,
+    "n_fire": 20,
+    "n_nonfire": 28
+  }
+}

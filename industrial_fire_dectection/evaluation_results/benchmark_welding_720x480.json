@@ -1,0 +1,603 @@
+{
+  "summary": {
+    "device": "cuda",
+    "source_fps": 29.97002997002997,
+    "frame_skip": 3,
+    "frames_read": 1272,
+    "frames_analyzed": 424,
+    "analyzed_fps_compute_only": 93.60478836945602,
+    "wall_clock_sec": 4.827357899863273,
+    "timing_ms": {
+      "stage1_detect_ms": {
+        "n": 424,
+        "mean": 9.442648349575839,
+        "p50": 5.5376001400873065,
+        "p95": 8.63317996263503
+      },
+      "track_crop_ms": {
+        "n": 424,
+        "mean": 0.02798961941152811,
+        "p50": 0.006700167432427406,
+        "p95": 0.0913749798201024
+      },
+      "total_ms": {
+        "n": 424,
+        "mean": 10.68321415409885,
+        "p50": 5.544000188820064,
+        "p95": 13.347319874446837
+      },
+      "stage2_classify_ms": {
+        "n": 93,
+        "mean": 5.525913970765247,
+        "p50": 5.426599876955152,
+        "p95": 6.019540037959813
+      }
+    },
+    "classified_windows": 93,
+    "fire_windows": 88,
+    "fire_track_ids": [
+      1
+    ],
+    "threshold": 0.75
+  },
+  "events": [
+    {
+      "frame": 87,
+      "track_id": 1,
+      "prob": 0.847326934337616,
+      "is_fire": true
+    },
+    {
+      "frame": 90,
+      "track_id": 1,
+      "prob": 0.8474185466766357,
+      "is_fire": true
+    },
+    {
+      "frame": 93,
+      "track_id": 1,
+      "prob": 0.8476100564002991,
+      "is_fire": true
+    },
+    {
+      "frame": 96,
+      "track_id": 1,
+      "prob": 0.8481681942939758,
+      "is_fire": true
+    },
+    {
+      "frame": 99,
+      "track_id": 1,
+      "prob": 0.8478277921676636,
+      "is_fire": true
+    },
+    {
+      "frame": 102,
+      "track_id": 1,
+      "prob": 0.8475184440612793,
+      "is_fire": true
+    },
+    {
+      "frame": 105,
+      "track_id": 1,
+      "prob": 0.8474982380867004,
+      "is_fire": true
+    },
+    {
+      "frame": 108,
+      "track_id": 1,
+      "prob": 0.847967267036438,
+      "is_fire": true
+    },
+    {
+      "frame": 111,
+      "track_id": 1,
+      "prob": 0.8477534055709839,
+      "is_fire": true
+    },
+    {
+      "frame": 114,
+      "track_id": 1,
+      "prob": 0.8474672436714172,
+      "is_fire": true
+    },
+    {
+      "frame": 117,
+      "track_id": 1,
+      "prob": 0.8471971154212952,
+      "is_fire": true
+    },
+    {
+      "frame": 120,
+      "track_id": 1,
+      "prob": 0.8478861451148987,
+      "is_fire": true
+    },
+    {
+      "frame": 123,
+      "track_id": 1,
+      "prob": 0.8479912877082825,
+      "is_fire": true
+    },
+    {
+      "frame": 126,
+      "track_id": 1,
+      "prob": 0.8477487564086914,
+      "is_fire": true
+    },
+    {
+      "frame": 129,
+      "track_id": 1,
+      "prob": 0.8480179309844971,
+      "is_fire": true
+    },
+    {
+      "frame": 132,
+      "track_id": 1,
+      "prob": 0.8480473756790161,
+      "is_fire": true
+    },
+    {
+      "frame": 135,
+      "track_id": 1,
+      "prob": 0.8480963706970215,
+      "is_fire": true
+    },
+    {
+      "frame": 138,
+      "track_id": 1,
+      "prob": 0.8478538393974304,
+      "is_fire": true
+    },
+    {
+      "frame": 141,
+      "track_id": 1,
+      "prob": 0.847622275352478,
+      "is_fire": true
+    },
+    {
+      "frame": 144,
+      "track_id": 1,
+      "prob": 0.8483806252479553,
+      "is_fire": true
+    },
+    {
+      "frame": 147,
+      "track_id": 1,
+      "prob": 0.8480665683746338,
+      "is_fire": true
+    },
+    {
+      "frame": 150,
+      "track_id": 1,
+      "prob": 0.8481612205505371,
+      "is_fire": true
+    },
+    {
+      "frame": 153,
+      "track_id": 1,
+      "prob": 0.8479440808296204,
+      "is_fire": true
+    },
+    {
+      "frame": 156,
+      "track_id": 1,
+      "prob": 0.8482944369316101,
+      "is_fire": true
+    },
+    {
+      "frame": 159,
+      "track_id": 1,
+      "prob": 0.8482985496520996,
+      "is_fire": true
+    },
+    {
+      "frame": 162,
+      "track_id": 1,
+      "prob": 0.8483364582061768,
+      "is_fire": true
+    },
+    {
+      "frame": 165,
+      "track_id": 1,
+      "prob": 0.8478940725326538,
+      "is_fire": true
+    },
+    {
+      "frame": 168,
+      "track_id": 1,
+      "prob": 0.848081648349762,
+      "is_fire": true
+    },
+    {
+      "frame": 171,
+      "track_id": 1,
+      "prob": 0.847859799861908,
+      "is_fire": true
+    },
+    {
+      "frame": 174,
+      "track_id": 1,
+      "prob": 0.847956120967865,
+      "is_fire": true
+    },
+    {
+      "frame": 177,
+      "track_id": 1,
+      "prob": 0.848049521446228,
+      "is_fire": true
+    },
+    {
+      "frame": 180,
+      "track_id": 1,
+      "prob": 0.8480978012084961,
+      "is_fire": true
+    },
+    {
+      "frame": 183,
+      "track_id": 1,
+      "prob": 0.8477569222450256,
+      "is_fire": true
+    },
+    {
+      "frame": 186,
+      "track_id": 1,
+      "prob": 0.8478597402572632,
+      "is_fire": true
+    },
+    {
+      "frame": 189,
+      "track_id": 1,
+      "prob": 0.8483137488365173,
+      "is_fire": true
+    },
+    {
+      "frame": 192,
+      "track_id": 1,
+      "prob": 0.8480594754219055,
+      "is_fire": true
+    },
+    {
+      "frame": 195,
+      "track_id": 1,
+      "prob": 0.8483645915985107,
+      "is_fire": true
+    },
+    {
+      "frame": 198,
+      "track_id": 1,
+      "prob": 0.848132312297821,
+      "is_fire": true
+    },
+    {
+      "frame": 201,
+      "track_id": 1,
+      "prob": 0.8482886552810669,
+      "is_fire": true
+    },
+    {
+      "frame": 204,
+      "track_id": 1,
+      "prob": 0.8483099341392517,
+      "is_fire": true
+    },
+    {
+      "frame": 207,
+      "track_id": 1,
+      "prob": 0.8483125567436218,
+      "is_fire": true
+    },
+    {
+      "frame": 210,
+      "track_id": 1,
+      "prob": 0.8477113246917725,
+      "is_fire": true
+    },
+    {
+      "frame": 213,
+      "track_id": 1,
+      "prob": 0.8479017019271851,
+      "is_fire": true
+    },
+    {
+      "frame": 216,
+      "track_id": 1,
+      "prob": 0.8472374081611633,
+      "is_fire": true
+    },
+    {
+      "frame": 219,
+      "track_id": 1,
+      "prob": 0.8475892543792725,
+      "is_fire": true
+    },
+    {
+      "frame": 222,
+      "track_id": 1,
+      "prob": 0.8478735089302063,
+      "is_fire": true
+    },
+    {
+      "frame": 225,
+      "track_id": 1,
+      "prob": 0.848505437374115,
+      "is_fire": true
+    },
+    {
+      "frame": 228,
+      "track_id": 1,
+      "prob": 0.8483378291130066,
+      "is_fire": true
+    },
+    {
+      "frame": 231,
+      "track_id": 1,
+      "prob": 0.8480814695358276,
+      "is_fire": true
+    },
+    {
+      "frame": 234,
+      "track_id": 1,
+      "prob": 0.8480581641197205,
+      "is_fire": true
+    },
+    {
+      "frame": 237,
+      "track_id": 1,
+      "prob": 0.8482174277305603,
+      "is_fire": true
+    },
+    {
+      "frame": 240,
+      "track_id": 1,
+      "prob": 0.8477700352668762,
+      "is_fire": true
+    },
+    {
+      "frame": 243,
+      "track_id": 1,
+      "prob": 0.8481891751289368,
+      "is_fire": true
+    },
+    {
+      "frame": 246,
+      "track_id": 1,
+      "prob": 0.8483904600143433,
+      "is_fire": true
+    },
+    {
+      "frame": 249,
+      "track_id": 1,
+      "prob": 0.8478787541389465,
+      "is_fire": true
+    },
+    {
+      "frame": 252,
+      "track_id": 1,
+      "prob": 0.8486414551734924,
+      "is_fire": true
+    },
+    {
+      "frame": 255,
+      "track_id": 1,
+      "prob": 0.8484652638435364,
+      "is_fire": true
+    },
+    {
+      "frame": 258,
+      "track_id": 1,
+      "prob": 0.8477727770805359,
+      "is_fire": true
+    },
+    {
+      "frame": 261,
+      "track_id": 1,
+      "prob": 0.8477789163589478,
+      "is_fire": true
+    },
+    {
+      "frame": 264,
+      "track_id": 1,
+      "prob": 0.8478728532791138,
+      "is_fire": true
+    },
+    {
+      "frame": 267,
+      "track_id": 1,
+      "prob": 0.8476547002792358,
+      "is_fire": true
+    },
+    {
+      "frame": 270,
+      "track_id": 1,
+      "prob": 0.8479721546173096,
+      "is_fire": true
+    },
+    {
+      "frame": 273,
+      "track_id": 1,
+      "prob": 0.8473989367485046,
+      "is_fire": true
+    },
+    {
+      "frame": 276,
+      "track_id": 1,
+      "prob": 0.8477412462234497,
+      "is_fire": true
+    },
+    {
+      "frame": 279,
+      "track_id": 1,
+      "prob": 0.847842276096344,
+      "is_fire": true
+    },
+    {
+      "frame": 282,
+      "track_id": 1,
+      "prob": 0.8482534885406494,
+      "is_fire": true
+    },
+    {
+      "frame": 285,
+      "track_id": 1,
+      "prob": 0.8480656147003174,
+      "is_fire": true
+    },
+    {
+      "frame": 288,
+      "track_id": 1,
+      "prob": 0.8483462333679199,
+      "is_fire": true
+    },
+    {
+      "frame": 291,
+      "track_id": 1,
+      "prob": 0.8481041789054871,
+      "is_fire": true
+    },
+    {
+      "frame": 294,
+      "track_id": 1,
+      "prob": 0.8473000526428223,
+      "is_fire": true
+    },
+    {
+      "frame": 297,
+      "track_id": 1,
+      "prob": 0.847689151763916,
+      "is_fire": true
+    },
+    {
+      "frame": 300,
+      "track_id": 1,
+      "prob": 0.8475901484489441,
+      "is_fire": true
+    },
+    {
+      "frame": 303,
+      "track_id": 1,
+      "prob": 0.8478901386260986,
+      "is_fire": true
+    },
+    {
+      "frame": 306,
+      "track_id": 1,
+      "prob": 0.8480167388916016,
+      "is_fire": true
+    },
+    {
+      "frame": 309,
+      "track_id": 1,
+      "prob": 0.8483841419219971,
+      "is_fire": true
+    },
+    {
+      "frame": 312,
+      "track_id": 1,
+      "prob": 0.847887396812439,
+      "is_fire": true
+    },
+    {
+      "frame": 315,
+      "track_id": 1,
+      "prob": 0.847931444644928,
+      "is_fire": true
+    },
+    {
+      "frame": 318,
+      "track_id": 1,
+      "prob": 0.8480603694915771,
+      "is_fire": true
+    },
+    {
+      "frame": 321,
+      "track_id": 1,
+      "prob": 0.848019003868103,
+      "is_fire": true
+    },
+    {
+      "frame": 324,
+      "track_id": 1,
+      "prob": 0.8471962213516235,
+      "is_fire": true
+    },
+    {
+      "frame": 327,
+      "track_id": 1,
+      "prob": 0.8475391864776611,
+      "is_fire": true
+    },
+    {
+      "frame": 330,
+      "track_id": 1,
+      "prob": 0.8456727862358093,
+      "is_fire": true
+    },
+    {
+      "frame": 333,
+      "track_id": 1,
+      "prob": 0.8413802981376648,
+      "is_fire": true
+    },
+    {
+      "frame": 336,
+      "track_id": 1,
+      "prob": 0.8240303993225098,
+      "is_fire": true
+    },
+    {
+      "frame": 339,
+      "track_id": 1,
+      "prob": 0.8129611015319824,
+      "is_fire": true
+    },
+    {
+      "frame": 342,
+      "track_id": 1,
+      "prob": 0.8027822971343994,
+      "is_fire": true
+    },
+    {
+      "frame": 345,
+      "track_id": 1,
+      "prob": 0.7939812541007996,
+      "is_fire": true
+    },
+    {
+      "frame": 348,
+      "track_id": 1,
+      "prob": 0.7833880186080933,
+      "is_fire": true
+    },
+    {
+      "frame": 351,
+      "track_id": 1,
+      "prob": 0.7004497051239014,
+      "is_fire": false
+    },
+    {
+      "frame": 354,
+      "track_id": 1,
+      "prob": 0.6250500082969666,
+      "is_fire": false
+    },
+    {
+      "frame": 357,
+      "track_id": 1,
+      "prob": 0.5757032632827759,
+      "is_fire": false
+    },
+    {
+      "frame": 360,
+      "track_id": 1,
+      "prob": 0.5435514450073242,
+      "is_fire": false
+    },
+    {
+      "frame": 363,
+      "track_id": 1,
+      "prob": 0.49670180678367615,
+      "is_fire": false
+    }
+  ]
+}

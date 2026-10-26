@@ -1,0 +1,226 @@
+{
+  "name": "tune_wd1e-3",
+  "k": 5,
+  "threshold": 0.75,
+  "n_videos": 46,
+  "pooled_clip_level": {
+    "n": 1324,
+    "n_pos": 1105,
+    "tp": 550,
+    "fp": 31,
+    "tn": 188,
+    "fn": 555,
+    "precision": 0.9466437177280551,
+    "recall": 0.497737556561086,
+    "f1": 0.6524317912218268,
+    "fpr": 0.1415525114155251,
+    "accuracy": 0.5574018126888217,
+    "auc": 0.8040992582491374,
+    "threshold": 0.75
+  },
+  "ci95_video_bootstrap": {
+    "fpr": [
+      0.02603997564935065,
+      0.2996714725538784
+    ],
+    "recall": [
+      0.244807180391122,
+      0.7361245855724371
+    ],
+    "precision": [
+      0.8197323401904114,
+      0.9930818094808624
+    ]
+  },
+  "video_level_mean": {
+    "n": 46,
+    "n_pos": 20,
+    "tp": 8,
+    "fp": 2,
+    "tn": 24,
+    "fn": 12,
+    "precision": 0.8,
+    "recall": 0.4,
+    "f1": 0.5333333333333333,
+    "fpr": 0.07692307692307693,
+    "accuracy": 0.6956521739130435,
+    "auc": 0.825,
+    "threshold": 0.75
+  },
+  "controlled_flame": {
+    "videos": 2,
+    "clips": 164,
+    "clip_alarm_rate": 0.9512195121951219,
+    "video_mean_prob": {
+      "interference__fireplace__71ZC9LInjhU": 0.8999129832666665,
+      "interference__welding__CeRRsDlQkxA": 0.497235645
+    }
+  },
+  "all_nonfire_pooled_clip_level": {
+    "n": 1488,
+    "n_pos": 1105,
+    "tp": 550,
+    "fp": 187,
+    "tn": 196,
+    "fn": 555,
+    "precision": 0.746268656716418,
+    "recall": 0.497737556561086,
+    "f1": 0.5971769815418024,
+    "fpr": 0.48825065274151436,
+    "accuracy": 0.5013440860215054,
+    "auc": 0.5340264404617039,
+    "threshold": 0.75
+  },
+  "per_fold": {
+    "0": {
+      "n": 273,
+      "n_pos": 216,
+      "precision": 0.9259259259259259,
+      "recall": 0.9259259259259259,
+      "fpr": 0.2807017543859649,
+      "auc": 0.7797270955165692
+    },
+    "1": {
+      "n": 276,
+      "n_pos": 244,
+      "precision": 0.9943181818181818,
+      "recall": 0.7172131147540983,
+      "fpr": 0.03125,
+      "auc": 0.8837090163934426
+    },
+    "2": {
+      "n": 291,
+      "n_pos": 245,
+      "precision": 1.0,
+      "recall": 0.004081632653061225,
+      "fpr": 0.0,
+      "auc": 0.9100266193433896
+    },
+    "3": {
+      "n": 159,
+      "n_pos": 93,
+      "precision": 0.8589743589743589,
+      "recall": 0.7204301075268817,
+      "fpr": 0.16666666666666666,
+      "auc": 0.8569566634082763
+    },
+    "4": {
+      "n": 325,
+      "n_pos": 307,
+      "precision": 0.9727272727272728,
+      "recall": 0.3485342019543974,
+      "fpr": 0.16666666666666666,
+      "auc": 0.6901918204849801
+    }
+  },
+  "per_category": {
+    "beacon (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 15,
+      "fpr": 1.0
+    },
+    "building (fire)": {
+      "label": "fire",
+      "videos": 4,
+      "clips": 402,
+      "recall": 0.8059701492537313
+    },
+    "factory_cctv (fire)": {
+      "label": "fire",
+      "videos": 2,
+      "clips": 75,
+      "recall": 0.24
+    },
+    "factory_construction (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 11,
+      "fpr": 0.0
+    },
+    "fireplace (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 150,
+      "fpr": 1.0
+    },
+    "firesense (non-fire)": {
+      "label": "non-fire",
+      "videos": 9,
+      "clips": 70,
+      "fpr": 0.11428571428571428
+    },
+    "firesense (fire)": {
+      "label": "fire",
+      "videos": 11,
+      "clips": 466,
+      "recall": 0.37124463519313305
+    },
+    "floodlight (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 4,
+      "fpr": 0.0
+    },
+    "forklift_beacon (non-fire)": {
+      "label": "non-fire",
+      "videos": 2,
+      "clips": 7,
+      "fpr": 0.0
+    },
+    "forklift_linebeam (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 2,
+      "fpr": 0.0
+    },
+    "gas_torch (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 14,
+      "fpr": 0.42857142857142855
+    },
+    "glass_reflection (non-fire)": {
+      "label": "non-fire",
+      "videos": 2,
+      "clips": 34,
+      "fpr": 0.0
+    },
+    "strobe (non-fire)": {
+      "label": "non-fire",
+      "videos": 4,
+      "clips": 16,
+      "fpr": 0.25
+    },
+    "stunt_flame (fire)": {
+      "label": "fire",
+      "videos": 1,
+      "clips": 5,
+      "recall": 1.0
+    },
+    "sunlight (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 18,
+      "fpr": 0.0
+    },
+    "sunlight_led (non-fire)": {
+      "label": "non-fire",
+      "videos": 1,
+      "clips": 18,
+      "fpr": 0.16666666666666666
+    },
+    "vehicle (fire)": {
+      "label": "fire",
+      "videos": 2,
+      "clips": 157,
+      "recall": 0.1910828025477707
+    },
+    "welding (non-fire)": {
+      "label": "non-fire",
+      "videos": 3,
+      "clips": 24,
+      "fpr": 0.041666666666666664
+    }
+  }
+}

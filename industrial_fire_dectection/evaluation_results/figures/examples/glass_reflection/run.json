@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "device": "cuda",
+    "source_fps": 29.97002997002997,
+    "frame_skip": 3,
+    "frames_read": 2400,
+    "frames_analyzed": 800,
+    "analyzed_fps_compute_only": 123.17729550076018,
+    "wall_clock_sec": 10.969956899993122,
+    "timing_ms": {
+      "stage1_detect_ms": {
+        "n": 800,
+        "mean": 7.874800501158461,
+        "p50": 5.8588499668985605,
+        "p95": 8.430439932271836
+      },
+      "track_crop_ms": {
+        "n": 800,
+        "mean": 0.07810912560671568,
+        "p50": 0.007899943739175797,
+        "p95": 0.49886995693668706
+      },
+      "total_ms": {
+        "n": 800,
+        "mean": 8.118379251100123,
+        "p50": 5.89335011318326,
+        "p95": 9.938655095174905
+      },
+      "stage2_classify_ms": {
+        "n": 21,
+        "mean": 6.269671433117418,
+        "p50": 5.675999913364649,
+        "p95": 10.35080011934042
+      }
+    },
+    "classified_windows": 21,
+    "fire_windows": 0,
+    "fire_track_ids": [],
+    "threshold": 0.75
+  },
+  "events": [
+    {
+      "frame": 1965,
+      "track_id": 11,
+      "prob": 0.3290417194366455,
+      "is_fire": false
+    },
+    {
+      "frame": 1968,
+      "track_id": 11,
+      "prob": 0.3277902901172638,
+      "is_fire": false
+    },
+    {
+      "frame": 1971,
+      "track_id": 11,
+      "prob": 0.3266160190105438,
+      "is_fire": false
+    },
+    {
+      "frame": 1974,
+      "track_id": 11,
+      "prob": 0.32469090819358826,
+      "is_fire": false
+    },
+    {
+      "frame": 1977,
+      "track_id": 11,
+      "prob": 0.3234541118144989,
+      "is_fire": false
+    },
+    {
+      "frame": 1980,
+      "track_id": 11,
+      "prob": 0.32194948196411133,
+      "is_fire": false
+    },
+    {
+      "frame": 1983,
+      "track_id": 11,
+      "prob": 0.32049351930618286,
+      "is_fire": false
+    },
+    {
+      "frame": 1986,
+      "track_id": 11,
+      "prob": 0.32231441140174866,
+      "is_fire": false
+    },
+    {
+      "frame": 1989,
+      "track_id": 11,
+      "prob": 0.32338106632232666,
+      "is_fire": false
+    },
+    {
+      "frame": 1992,
+      "track_id": 11,
+      "prob": 0.32448941469192505,
+      "is_fire": false
+    },
+    {
+      "frame": 1995,
+      "track_id": 11,
+      "prob": 0.3254469037055969,
+      "is_fire": false
+    },
+    {
+      "frame": 1998,
+      "track_id": 11,
+      "prob": 0.3158184885978699,
+      "is_fire": false
+    },
+    {
+      "frame": 2001,
+      "track_id": 11,
+      "prob": 0.30673474073410034,
+      "is_fire": false
+    },
+    {
+      "frame": 2004,
+      "track_id": 11,
+      "prob": 0.290120929479599,
+      "is_fire": false
+    },
+    {
+      "frame": 2007,
+      "track_id": 11,
+      "prob": 0.274565190076828,
+      "is_fire": false
+    },
+    {
+      "frame": 2010,
+      "track_id": 11,
+      "prob": 0.25784990191459656,
+      "is_fire": false
+    },
+    {
+      "frame": 2013,
+      "track_id": 11,
+      "prob": 0.24093928933143616,
+      "is_fire": false
+    },
+    {
+      "frame": 2016,
+      "track_id": 11,
+      "prob": 0.222988098859787,
+      "is_fire": false
+    },
+    {
+      "frame": 2019,
+      "track_id": 11,
+      "prob": 0.21087519824504852,
+      "is_fire": false
+    },
+    {
+      "frame": 2022,
+      "track_id": 11,
+      "prob": 0.20486758649349213,
+      "is_fire": false
+    },
+    {
+      "frame": 2025,
+      "track_id": 11,
+      "prob": 0.20225119590759277,
+      "is_fire": false
+    }
+  ]
+}

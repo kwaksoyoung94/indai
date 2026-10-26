@@ -1,0 +1,85 @@
+{
+  "title": "tune_lr3e-4_h128_fold4",
+  "n_videos": 10,
+  "clip_level": {
+    "n": 339,
+    "n_pos": 307,
+    "tp": 1,
+    "fp": 0,
+    "tn": 32,
+    "fn": 306,
+    "precision": 1.0,
+    "recall": 0.003257328990228013,
+    "f1": 0.006493506493506494,
+    "fpr": 0.0,
+    "accuracy": 0.09734513274336283,
+    "auc": 0.6009771986970684,
+    "threshold": 0.75
+  },
+  "video_level_mean": {
+    "n": 10,
+    "n_pos": 4,
+    "tp": 0,
+    "fp": 0,
+    "tn": 6,
+    "fn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null,
+    "fpr": 0.0,
+    "accuracy": 0.6,
+    "auc": 0.75,
+    "threshold": 0.75
+  },
+  "video_level_max": {
+    "n": 10,
+    "n_pos": 4,
+    "tp": 1,
+    "fp": 0,
+    "tn": 6,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1": 0.4,
+    "fpr": 0.0,
+    "accuracy": 0.7,
+    "auc": 1.0,
+    "threshold": 0.75
+  },
+  "clip_level_ci95_video_bootstrap": {
+    "fpr": [
+      0.0,
+      0.0
+    ],
+    "recall": [
+      0.0,
+      0.016666666666666666
+    ],
+    "precision": [
+      1.0,
+      1.0
+    ]
+  },
+  "threshold_sweep": {
+    "0.25": {
+      "precision": 0.9056047197640118,
+      "recall": 1.0,
+      "fpr": 1.0
+    },
+    "0.50": {
+      "precision": 0.9074074074074074,
+      "recall": 0.6384364820846905,
+      "fpr": 0.625
+    },
+    "0.75": {
+      "precision": 1.0,
+      "recall": 0.003257328990228013,
+      "fpr": 0.0
+    },
+    "0.90": {
+      "precision": null,
+      "recall": 0.0,
+      "fpr": 0.0
+    }
+  }
+}
