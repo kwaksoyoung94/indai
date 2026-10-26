@@ -1,0 +1,85 @@
+{
+  "title": "abl_mean_fold4",
+  "n_videos": 10,
+  "clip_level": {
+    "n": 339,
+    "n_pos": 307,
+    "tp": 54,
+    "fp": 0,
+    "tn": 32,
+    "fn": 253,
+    "precision": 1.0,
+    "recall": 0.1758957654723127,
+    "f1": 0.29916897506925205,
+    "fpr": 0.0,
+    "accuracy": 0.2536873156342183,
+    "auc": 0.6186889250814332,
+    "threshold": 0.75
+  },
+  "video_level_mean": {
+    "n": 10,
+    "n_pos": 4,
+    "tp": 0,
+    "fp": 0,
+    "tn": 6,
+    "fn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null,
+    "fpr": 0.0,
+    "accuracy": 0.6,
+    "auc": 0.9166666666666667,
+    "threshold": 0.75
+  },
+  "video_level_max": {
+    "n": 10,
+    "n_pos": 4,
+    "tp": 4,
+    "fp": 0,
+    "tn": 6,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fpr": 0.0,
+    "accuracy": 1.0,
+    "auc": 1.0,
+    "threshold": 0.75
+  },
+  "clip_level_ci95_video_bootstrap": {
+    "fpr": [
+      0.0,
+      0.0
+    ],
+    "recall": [
+      0.049019607843137254,
+      0.36666666666666664
+    ],
+    "precision": [
+      1.0,
+      1.0
+    ]
+  },
+  "threshold_sweep": {
+    "0.25": {
+      "precision": 0.9056047197640118,
+      "recall": 1.0,
+      "fpr": 1.0
+    },
+    "0.50": {
+      "precision": 0.9395973154362416,
+      "recall": 0.4560260586319218,
+      "fpr": 0.28125
+    },
+    "0.75": {
+      "precision": 1.0,
+      "recall": 0.1758957654723127,
+      "fpr": 0.0
+    },
+    "0.90": {
+      "precision": 1.0,
+      "recall": 0.013029315960912053,
+      "fpr": 0.0
+    }
+  }
+}
