@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+dataset/videos/
+dataset/roi_clips/
+models/weights/
+*.pt
+*.h5
+temp_download_*
+dataset/external/
