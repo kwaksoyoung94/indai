@@ -20,6 +20,21 @@
   - 전력 수요 예측을 위한 머신러닝/딥러닝 모델 코드와 실습 자료 모음
   - 다양한 예측 모델 스크립트, 결과 PDF, requirements.txt 포함
 
+- **AnomalyDetectionProject/**
+  - 기계 예측 유지보수 데이터 기반 이상 탐지/분류 실습 (노트북, 데이터, requirements)
+
+- **IntelligentCapstone/**
+  - 지능화캡스톤 실습 및 화재·연기 감지 초기 프로젝트 모음
+
+- **PatternRecognition/**
+  - 패턴인식 주차별 실습(회귀, 신경망)과 피부종양 이상탐지 프로젝트 제안
+
+- **semiconductor/**
+  - 반도체 UCI-SECOM 센서 데이터의 5대 품질 지표 기반 정제(Golden Dataset)
+
+- **industrial_fire_dectection/**
+  - 광학적 외란 환경에서 오탐을 줄이는 2-Stage(YOLO + CNN-LSTM) 화재 감지 시스템, 석사학위논문 연구 코드
+
 ## 사용 방법
 
 1. 각 폴더의 README.md를 참고하여 폴더별 목적과 주요 파일을 확인하세요.
